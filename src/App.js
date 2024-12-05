@@ -13,7 +13,7 @@ const App = () => {
         {/* Define Routes for different pages */}
         <Routes>
           {/* Redirect the user to AdminPage by default */}
-          <Route path="/" element={<Navigate to="/register" />} />
+          <Route path="/" element={<Navigate to="/adminpage" />} />
           
           {/* Define Routes for the different pages */}
           <Route path="/register" element={<Register />} />
